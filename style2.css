@@ -1,0 +1,62 @@
+/* ✨ 全局設定 */
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #121212;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 🚀 導航欄 */
+nav {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px 25px;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #66ccff;
+}
+
+/* 📌 主內容區域 */
+section {
+    width: 60%;
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* 🎨 按鈕設計 */
+.button {
+    padding: 12px 25px;
+    border: 1px solid #66ccff;
+    color: #66ccff;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+    background: #66ccff;
+    color: #121212;
+}
+
+/* 📸 圖片設計 */
+img {
+    width: 180px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
